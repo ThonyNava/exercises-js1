@@ -9,7 +9,11 @@
 */
 
 function containsCode(sentence) {
-
+  if(sentence.split(" ").includes("code")){
+    return true;
+  } else {
+    return false;    
+  }
 }
 
 /* 
