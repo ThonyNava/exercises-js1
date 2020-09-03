@@ -9,6 +9,21 @@
 
 var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 
+let fizzBuzz = (arr) => {
+  for (let i = 0; i < arr.length; i++) {
+    // console.log(`Is in loop: ${arr[i]}, ${arr[i] % 3}, ${arr[i] % 5}`);
+    if (arr[i] % 3 === 0) {
+      console.log("Fizz");
+    } else if (arr[i] % 5 === 0) {
+      console.log("Fizz");
+    } else {
+      console.log(arr[i]);
+    }
+  }
+};
+
+console.log(fizzBuzz(arr));
+
 /* EXPECTED OUTPUT */
 
 /*

@@ -3,3 +3,15 @@
 
 var numbers = [0.1, 0.2, 0.3, 0.4, 0.5];
 
+// Arrow Function
+let multipliedBy100_AF = (n) => {
+  return n * 100;
+};
+
+// Function
+function multipliedBy100(n) {
+  return n * 100;
+}
+
+console.log(numbers.map(multipliedBy100_AF));
+console.log(numbers.map(multipliedBy100));
